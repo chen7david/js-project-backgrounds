@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(45,50,60);
+}
+
+.controls {
+    width: 50vw;
+    height: 100px;
+    border: solid white 3px;
+    background: rgb(5, 141, 165);
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn {
+    min-width: 80px;
+    height: 80px;
+    border: solid white 3px;
+    background: rgb(5, 141, 165);
+    border-radius: 50px;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background: rgb(179, 182, 17);
+}
